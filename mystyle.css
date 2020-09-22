@@ -1,11 +1,26 @@
-body{ background-color: antiquewhite}
-h1{
-  border: 5 ridge red;
+body{ background-color: antiquewhite;
 
-    color: red;
+
+
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+h1{
+    
+  border-width: 5;
+    border-style:ridge;
+    border-color: #ca1111;
+
+    color: #ff0000;
 text-align: center;
 
     font-family: 'Times New Roman', Times, serif;
+
 
 }
 h2{
