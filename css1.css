@@ -1,0 +1,63 @@
+body{
+    background-color: #ffffff
+}
+.wrapper{
+    width: 90%;
+    max-width: 960;
+    min-height: 600;
+    margin-left: auto;
+    margin-right: auto;
+    border: black;
+    border-style: solid;
+}
+
+.logo{
+    width:40%;
+    background-color: ;
+    float: left;
+}
+.logo img{
+    width: 30%;
+}
+nav.meny{
+    width: 55%;
+ 
+    float: right;
+}
+
+.banner{
+    background-color: rgb(255, 255, 255);
+    background-image: url(himmel.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    float:left;
+}
+
+nav{}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: ;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: blue;
+}
