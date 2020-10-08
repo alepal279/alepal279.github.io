@@ -48,26 +48,17 @@ nav.meny{
 }
 
 
+
 h2{
-  
-    font-weight: 100;
-    font-size: 38px;
     color: #802082;
-
-   
 }
-.fel h2{
 
-    font-weight: 100;
-    font-size: 38px;
-    color: #802082;
 
-}
 h3{
+    color:white;
     background: #802082;
-    color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     letter-spacing: 2px;
     margin-top: 0;
     
@@ -77,11 +68,9 @@ h3{
     padding: none;
 }
 .resmal{
-
-    background: green;
     width: 30%;
     float: left;
-    margin-right:1%;
+ padding: 15px;
     margin-top: 10px;
 }
 .resmal img{
@@ -129,7 +118,7 @@ footer{
     background-repeat: no-repeat;
     background-color:#802082;
     background-size: 100%;
-    padding-top:130px;
+    padding-top:160px;
 }
 
 .inner_footer{
@@ -151,4 +140,7 @@ footer{
 .footerbox img{
     padding-right: 10px;
     padding-left:10px;
+}
+.footerboxtext h3{
+    color:white;
 }
