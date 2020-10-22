@@ -25,7 +25,7 @@ header{
     width: 200px;
 }
 nav.meny{
-    background:;
+
     width: 60%;
     float: right; 
     margin-top: 45px;
@@ -65,7 +65,7 @@ h3{
 }
 .footerbox h3{
     background:none;
-    padding: none;
+    padding: 0;
 }
 .resmal{
     width: 30%;
