@@ -50,13 +50,13 @@ nav.meny{
 
 
 h2{
-    color: #802082;
+    color: #57d3f1;
 }
 
 
 h3{
     color:white;
-    background: #802082;
+    background: #57d3f1;
     padding: 10px;
     border-radius: 10px;
     letter-spacing: 2px;
@@ -108,7 +108,7 @@ nav a{
 }
 
 nav a:hover {
-    background-color: #802082;
+    background-color: #57d3f1;
 }
 
 footer{
@@ -116,7 +116,7 @@ footer{
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
-    background-color:#802082;
+    background-color:#000000;
     background-size: 100%;
     padding-top:160px;
 }
