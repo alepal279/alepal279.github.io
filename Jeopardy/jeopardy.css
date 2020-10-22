@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+}
+
+.wrapper{
+width: 800px;
+height: 450px;
+margin-left: auto;
+margin-right: auto;
+border:rgb(226, 61, 61);
+border-style: solid;
+}    
+
+h1{
+text-align: center;
+color: rgb(226, 61, 61);
+}
+
+img{
+    margin-left: 50px;
+    margin-right: auto;
+    width: 700px;
+    height: 130px;
+}
+
+h2{
+    float: left;
+    margin-left:100px;
+    margin-right:5px;
+    color: rgb(226, 61, 61);
+}
+.frågor{
+
+    margin-top: 100px;
+
+}
+ul{
+    margin-top: -20px;
+    list-style-type: none;
+    float: left;
+    margin-left: 60px;
+    margin-right: 45px;
+
+}
+li{
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    background-color: rgb(226, 61, 61);
+    border-radius: 5px;
+}

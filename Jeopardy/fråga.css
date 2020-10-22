@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(238, 53, 53);
+ 
+}
+.wrapper{
+   
+    background-repeat: none;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 100px;
+    width: 400px;
+    height: auto;
+    border: rgb(140, 187, 179);
+    border-style: ridge;
+    border-width:10px;
+
+}
+h1{
+
+
+text-align: center;
+font-size: 45px;
+}
+p{
+text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+a:hover{
+    background-color: rgb(255, 69, 69);
+    border-radius: 5px;
+
+}
