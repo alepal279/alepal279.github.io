@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styling.css">
+    </head>
+<body>
+    <h2>1</h2>
+    <p>JavaScript kan ändra värdet på HTML atribut</p>
+
+    <p>Nu ska vi ändra värdet på en src för en bild</p>
+
+    <button type="knapp" onclick="document.getElementById('minBild')
+    .src='sad.png'">Ledsen</button>
+ 
+
+    <img id="minBild" src="happy.png" alt="">
+    <button type="knapp" onclick="document.getElementById('minBild')
+    .src='happy.png'">Glad</button>
+
+<h2>2</h2>
+<p>Datum</p>
+<button onclick="datum()">Datum och tid</button>
+<p id="demo"></p>
+<script>
+    function datum(){
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+}
+</script>
+
+
+<h2>3</h2>
+<p>Skriver ut sidan</p>
+<button onclick="text()">Skriv ut</button>
+<script>
+    function text(){
+        print()
+    }
+</script>
+
+
+<h2>4</h2>
+<p>Alert box</p>
+<button onclick="Alert()">Klicka</button>
+<script>
+    function Alert(){
+        alert("Du har tryckt på knapp 4!")
+    }
+</script>
+
+<h2>5</h2>
+<p>Skriver ut en text</p>
+<button onclick="text2()">Text</button>
+<p id="x"></p>
+<script>
+    function text2(){
+        document.getElementById('x').innerHTML = "Du har tryckt på knapp 5";
+    }
+</script>
+<h2>6</h2>
+<p>Backgrundsfärg</p>
+<button onclick="bakgrund()">Ändra bakgrunden</button>
+<script>
+    function bakgrund(){
+        document.body.style.backgroundColor="green";
+    }
+</script>
+<button onclick="bakgrund2()">Ändra tillbaka</button>
+<script>
+    function bakgrund2(){
+        document.body.style.backgroundColor="white";
+    }
+</script>
+
+<h2>7</h2>
+<p>Ändra textens styling</p>
+<button onclick="font()">Font Arial</button>
+<script>
+    function font(){
+        document.body.style.fontFamily="arial";
+    }
+</script>
+<button onclick="färg()">Färg blå</button>
+<script>
+    function färg(){
+        document.body.style.color="blue";
+    }
+</script>
+
+</body>
+
+
+</html>
