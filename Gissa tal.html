@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gissa tal</title>
+
+</head>
+<body>
+    <h1>Gissa rätt tal</h1>
+    <p>Jag tänker på ett tal från 1 och 100. Kan du gissa vilket tal jag tänker på?</p>
+
+<script>
+var nummer = Math.floor(Math.random()*100+1);
+function gissa(){
+x = parseInt(document.guess.gissning.value);
+if(x==nummer){
+    document.guess.svar.value = "Ett nytt nummer har valts";
+    nummer = Math.floor(Math.random()*100+1);
+    bakgrund2();
+    window.alert("du hade rätt");
+}
+else{
+    if(x<nummer){
+        document.guess.svar.value = "För lågt"
+        bakgrund()
+       
+    }
+    if(x>nummer){
+        document.guess.svar.value = "För högt"
+        bakgrund();
+    }
+
+
+}
+}
+
+</script>
+<script>
+    function bakgrund(){
+        document.body.style.backgroundColor="red";
+    }
+</script>
+
+    <script>
+    function bakgrund2(){
+        document.body.style.backgroundColor="green";
+    }
+
+</script>
+<form name="guess" id=formular>
+    <input name="gissning" type="text" id="gissningen">
+<input type="button" onclick="gissa()" value="Gissa">
+<br>
+<br>
+<input type="text" name="svar" value="">
+</form>
+</body>
+
+</html>
