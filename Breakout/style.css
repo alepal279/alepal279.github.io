@@ -6,6 +6,16 @@
     background:#eee;
     display: block;
     margin: 0 auto;
+    position: relative;
+    left: 0px;
+    animation: hardMode 1s infinite linear ;
 
+}
+
+@keyframes hardMode{
+    0%{left:0px;}
+    25%{left:50px;}
+    75%{left:-50px}
+    100%{left:0px;}
 
 }
