@@ -50,7 +50,7 @@ function draw() {
             yspeed = -yspeed;
         }
 
-        else if(lives>0){
+        else if(lives>1){
         lives--;
         x = canvas.width/2;
         y = canvas.height-30;
