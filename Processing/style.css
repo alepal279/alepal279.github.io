@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#myCanvas1{
+    background-color: antiquewhite;
+}
+
+#myCanvas2{
+    background-color: aqua;
+}
+
+#myCanvas3{
+    background-color: black;
+}
