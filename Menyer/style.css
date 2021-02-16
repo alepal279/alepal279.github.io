@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+#menyDive{
+    width: 100%;
+    height: 51px;
+    background-color: rgb(158, 158, 158);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    background-color: rgb(158, 158, 158);
+    padding: 14px 16px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: cadetblue;
+}
+
+/* Gör så den byter förg när du är inne på den fliken*/
+a.active{
+    background-color: chartreuse;
+}
+
+#textDiv{
+    margin-top: 50px;
+    width: 500px;
+    height:100%;
+}
