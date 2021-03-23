@@ -93,7 +93,7 @@ h1{
 
 
 
-#infobox{
+.infobox{
     background-color: rgb(3, 122, 158);
     width: 40%;
     height: auto;
@@ -107,7 +107,7 @@ h1{
 
 
 
-#picture{
+.picture{
     background-image: url(Bilder/kaffekopp2.png);
     background-repeat: no-repeat;
     width: 90%;
@@ -116,12 +116,12 @@ h1{
     margin-right: auto;
 }
 
-#picture img{
+.picture img{
     margin-top:30px;
     width: 100%;
 }
 
-#infobox #text{
+.infobox .text{
     margin-top: 10%px; 
     width: 90%; 
     margin-left: auto;
