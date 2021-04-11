@@ -386,7 +386,7 @@ footer{
 @media screen and (max-width:730px){
     
     h1{
-        font-size: 50px;
+        font-size: 60px;
         padding-bottom: 23px;
         padding-top: 23px;
     }
@@ -460,5 +460,14 @@ footer{
 
     footer{
         height: 700px;
+    }
+}
+
+@media screen and (max-width:480px){
+    h1{
+        font-size: 40px;
+    }
+    #logo{
+        width: 75px;
     }
 }
