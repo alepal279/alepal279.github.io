@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="wrapper">
+    <div id="gameWrapper">
         <a href="index.html"><img id="logo" src="Bilder/logo.png" alt="logo"></a>
         <h1>Casino</h1>
 
@@ -20,17 +20,21 @@
 
         </div>
         <div id="gameArea">
-            <p id="points"></p>
+            <p class="score" id="points"></p>
+            <p class="score" id="losses"></p>
+            <p class="score" id="wins"></p>
+            <br><br>
             <img id="coin" src="Bilder/heads.png" alt="Coin">
-            <button onclick="tossHeads();">Heads</button>
-            <button onclick="tossTails();">Tails</button>
+            <br>
+            <button id="headsButton" onclick="tossHeads();">Heads</button>
+            <button id="tailsButton" onclick="tossTails();">Tails</button>
             <p id="res"></p>
         </div>
         <script src="coinflip.js">
             
         </script>
     </div>
-    </div>
+    
     <div id="footer">
         
     </div>

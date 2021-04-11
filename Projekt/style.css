@@ -7,7 +7,7 @@
 body{
 width: 100%;
 height: 100%;
-background-color: black;
+background-color: rgb(0, 35, 68);
 }
 
 #wrapper{
@@ -23,6 +23,17 @@ background-color: black;
 }
 
 #shortWrapper{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 1600px;
+    background-color: rgb(80, 80, 80);
+    display: block;
+}
+
+#gameWrapper{
     margin-top: 50px;
     margin-bottom: 40px;
     margin-left: auto;
@@ -61,7 +72,7 @@ h1{
     font-size: 200px;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(0, 167, 209);
+    background-color: rgb(67, 217, 255);
 }
 
 
@@ -69,7 +80,7 @@ h1{
 .menu{
     width: 100%;
     height: 60px;
-    background-color: rgb(0, 167, 209);
+    background-color: rgb(0, 145, 182);
     position: sticky;
     top: 0;
     border: black solid 2px;
@@ -88,7 +99,7 @@ h3{
 .menu div{
     width: 15%;
     height: 50px;
-    background-color: rgb(0, 167, 209) ;
+    background-color: rgb(0, 145, 182);
     float: left;
     text-align: center;
     font-size: 30px;
@@ -103,7 +114,7 @@ h3{
 
 
 .menu div:hover{
-    background-color: rgb(0, 138, 180);
+    background-color: rgb(22, 170, 207);
     border-radius: 60px;
 }
 
@@ -112,14 +123,14 @@ h3{
 }
 
 .menu .active{
-    background-color: rgb(0, 138, 180);
+    background-color: rgb(22, 170, 207);
     border-radius: 60px;
 }
 
 
 
 .infobox{
-    background-color: rgb(0, 167, 209);
+    background-color: rgb(67, 217, 255);
     width: 40%;
     height: auto;
     margin-left: 0;
@@ -133,8 +144,7 @@ h3{
 
 
 .picture{
-    background-image: url(Bilder/kaffekopp2.png);
-    background-repeat: no-repeat;
+
     width: 90%;
     height: 50%;
     margin-left: auto;
@@ -147,6 +157,22 @@ h3{
 
 }
 
+.games{
+    float: left;
+}
+
+.play{
+    float: right;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.infobox a:hover{
+    color: white;
+}
+
 .infobox .text{
     margin-top: 10%px; 
     width: 90%; 
@@ -155,13 +181,70 @@ h3{
     margin-bottom: 5px;
 }
 
+#gameArea{
+    background-color: rgb(67, 217, 255);
+    width: 90%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
 
+.score{
+    font-size:30px;
+    font-weight: 700;
+}
+
+#points{
+    float: left;
+}
+
+#wins{
+    float: right;
+}
+
+#losses{
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#coin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headsButton{
+    background-color: white;
+    border: none;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#tailsButton{
+    background-color: white;
+    border: none;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#res{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+    font-weight: 700;
+}
 
 footer{
     margin-bottom: 0;
     width: 100%;
     height: 260px;
-    background-color: rgb(0, 167, 209);
+    background-color: rgb(67, 217, 255);
     
 }
 
@@ -204,6 +287,9 @@ footer{
     #shortWrapper{
         height: 2600px;
     }
+    #gameWrapper{
+        height: 2600px;
+    }
     footer{
         height: 600px;
     }
@@ -231,6 +317,7 @@ footer{
 }
 
 @media screen and (max-width:720px){
+
     .menu.responsive{
        position: relative;
        height: 200px;
@@ -259,7 +346,7 @@ footer{
         margin-top: 40px;
     }
     .menu div:hover{
-        background-color: rgb(0, 138, 180);
+        background-color: rgb(22, 170, 207);
         border-radius: 0px;
     }
     
@@ -268,7 +355,7 @@ footer{
     }
     
     .menu .active{
-        background-color: rgb(0, 138, 180);
+        background-color: rgb(22, 170, 207);
         border-radius: 0px;
     }
     
@@ -282,6 +369,25 @@ footer{
     }
 
 @media screen and (max-width:720px){
+    
+    .score{
+        font-size: 25px;
+    }
+
+    #res{
+        font-size: 44px;
+    }
+
+    #gameWrapper{
+        width: 100%;
+        margin-top:0px;
+        height: 1200px;
+    }
+
+    #gameArea{
+        height: 60%;
+    }
+    
     #wrapper{
         width: 100%;
         margin-top:0px;
@@ -290,7 +396,7 @@ footer{
     #shortWrapper{
         width: 100%;
         margin-top:0px;
-        height: 1800px;
+        height: 2000px;
     }
     .menu div{
         display: none;
@@ -325,6 +431,6 @@ footer{
     }
 
     footer{
-        height: 600px;
+        height: 700px;
     }
 }
