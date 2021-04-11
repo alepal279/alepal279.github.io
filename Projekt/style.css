@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 body{
 width: 100%;
@@ -21,6 +22,17 @@ background-color: black;
     
 }
 
+#shortWrapper{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 1600px;
+    background-color: rgb(80, 80, 80);
+    display: block;
+}
+
 #logo{
     position: relative;
     float: left;
@@ -32,7 +44,8 @@ background-color: black;
 
 }
 
-@keyframes float{
+
+/*@keyframes float{
     0%{top: 15px;}
     0%{left:15px;}
 
@@ -41,34 +54,41 @@ background-color: black;
 
     100%{left:15px;}
     100%{top:15px;}
-}
+}*/
 
 h1{
-    color: rgb(0, 204, 255);
-
+    color: rgb(0, 0, 0);
     font-size: 200px;
-    margin-right: 150px;
     text-align: center;
     text-decoration: none;
-
+    background-color: rgb(0, 167, 209);
 }
 
-#menu{
+
+
+.menu{
     width: 100%;
     height: 60px;
-    background-color: rgb(0, 204, 255);
+    background-color: rgb(0, 167, 209);
     position: sticky;
     top: 0;
+    border: black solid 2px;
+    margin-left: -2px;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 #home{
     margin-left: 20%;
 }
 
-#menu div{
+.menu div{
     width: 15%;
     height: 50px;
-    background-color: rgb(0, 204, 255) ;
+    background-color: rgb(0, 167, 209) ;
     float: left;
     text-align: center;
     font-size: 30px;
@@ -76,17 +96,22 @@ h1{
     margin-top:5px;
 
 }
+.menu #nav{
+    display: none;
+}
 
-#menu div:hover{
+
+
+.menu div:hover{
     background-color: rgb(0, 138, 180);
     border-radius: 60px;
 }
 
-#menu div:active{
+.menu div:active{
     background-color: white;
 }
 
-#menu .active{
+.menu .active{
     background-color: rgb(0, 138, 180);
     border-radius: 60px;
 }
@@ -94,7 +119,7 @@ h1{
 
 
 .infobox{
-    background-color: rgb(3, 122, 158);
+    background-color: rgb(0, 167, 209);
     width: 40%;
     height: auto;
     margin-left: 0;
@@ -117,8 +142,9 @@ h1{
 }
 
 .picture img{
-    margin-top:30px;
+    margin-top: 30px;
     width: 100%;
+
 }
 
 .infobox .text{
@@ -129,17 +155,176 @@ h1{
     margin-bottom: 5px;
 }
 
+
+
 footer{
+    margin-bottom: 0;
+    width: 100%;
+    height: 260px;
+    background-color: rgb(0, 167, 209);
+    
+}
+
+#footer{
     margin-top: -270px;
     height: 400px;
     width: 100%;
     background-image: url(Bilder/footer.png);
-    margin-bottom: -60px;
+    margin-bottom: -160px;
+    background-repeat: no-repeat;
 }
 
-#footer{
-    margin-bottom: 0;
-    width: 100%;
-    height: 150px;
-    background-color: #0074AA;
+.footerBox{
+    margin-left: 13%;
+    float: left;
+
+
+}
+.footerBox a{
+    color: black;
+}
+
+.footerBox a:visited{
+    color: black;
+}
+
+.footerBox a:hover{
+    color:white;
+}
+
+.footerBox img{    
+    padding-right:10px;
+}
+
+
+@media screen and (min-width:2000px){
+    #wrapper{
+        height: 2600px;
+    }
+    #shortWrapper{
+        height: 2600px;
+    }
+    footer{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    h1{
+        font-size: 100px;
+    }
+    #logo{
+        width: 100px;
+    }
+    
+    .menu{
+        height: 40px;
+    }
+
+    .menu div{
+    font-size: 20px;
+    height: 30px;
+    }
+    footer{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .menu.responsive{
+       position: relative;
+       height: 200px;
+    }
+
+    .menu.responsive div{
+        float: none;
+        display: block;
+        text-align: left;
+        height: 40px;
+        margin-top: 0;
+        padding-left: 5px;
+    }
+
+    .menu.responsive #nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        margin-left:-2px;
+    }
+
+    #home{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .menu div:hover{
+        background-color: rgb(0, 138, 180);
+        border-radius: 0px;
+    }
+    
+    .menu div:active{
+        background-color: white;
+    }
+    
+    .menu .active{
+        background-color: rgb(0, 138, 180);
+        border-radius: 0px;
+    }
+    
+    .infobox{
+        float: none;
+        width: 85%;
+    }
+
+
+
+    }
+
+@media screen and (max-width:720px){
+    #wrapper{
+        width: 100%;
+        margin-top:0px;
+        height: 3100px;
+    }
+    #shortWrapper{
+        width: 100%;
+        margin-top:0px;
+        height: 1800px;
+    }
+    .menu div{
+        display: none;
+        width: 120px;
+        font-size: 25px;
+    }
+    .menu #nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        margin-left:-2px;
+        padding-left: 5px;
+        height:40px;
+        margin-top: -2px;
+        border:black solid 2px;
+    }
+
+    .menu #back{
+        font-size: 23px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        margin-left:-2px;
+        padding-left: 5px;
+        height:40px;
+        margin-top: -2px;
+        border:black solid 2px;
+    }
+
+    footer{
+        height: 600px;
+    }
 }
