@@ -73,6 +73,8 @@ h1{
     text-align: center;
     text-decoration: none;
     background-color: rgb(67, 217, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -341,7 +343,7 @@ footer{
 @media screen and (max-width:790px){
 
     .menu.responsive{
-       position: relative;
+       position: sticky;
        height: 200px;
     }
 
