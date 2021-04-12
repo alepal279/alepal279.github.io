@@ -338,7 +338,7 @@ footer{
     }
 }
 
-@media screen and (max-width:735px){
+@media screen and (max-width:790px){
 
     .menu.responsive{
        position: relative;
@@ -390,7 +390,7 @@ footer{
 
     }
 
-@media screen and (max-width:735px){
+@media screen and (max-width:790px){
     
     h1{
         font-size: 60px;
@@ -423,7 +423,7 @@ footer{
     #wrapper{
         width: 100%;
         margin-top:0px;
-        height: 3100px;
+        height: 3200px;
     }
     #shortWrapper{
         width: 100%;
@@ -466,11 +466,11 @@ footer{
     }
 
     footer{
-        height: 500px;
+        height: 440px;
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:470px){
     h1{
         font-size: 40px;
     }
@@ -478,4 +478,7 @@ footer{
         width: 75px;
     }
 
+    footer{
+        height: 500px;
+    }
 }
