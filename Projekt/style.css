@@ -184,10 +184,17 @@ h3{
 #gameArea{
     background-color: rgb(67, 217, 255);
     width: 90%;
-    height: 70%;
+    height: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+
+#gameArea img{
+
+    width: 40%;
+    margin-left:31%;
+
 }
 
 .score{
@@ -201,12 +208,12 @@ h3{
 
 #wins{
     float: right;
+    margin-left: 20px;
 }
 
 #losses{
     float: right;
     margin-left: 20px;
-    margin-right: 20px;
 }
 
 #coin{
@@ -243,7 +250,7 @@ h3{
 footer{
     margin-bottom: 0;
     width: 100%;
-    height: 260px;
+    height: 340px;
     background-color: rgb(67, 217, 255);
     
 }
@@ -297,7 +304,7 @@ footer{
         height: 2600px;
     }
     footer{
-        height: 600px;
+        height: 500px;
     }
 }
 
@@ -327,7 +334,7 @@ footer{
     }
 
     footer{
-        height: 600px;
+        height: 500px;
     }
 }
 
@@ -459,7 +466,7 @@ footer{
     }
 
     footer{
-        height: 700px;
+        height: 500px;
     }
 }
 
@@ -470,4 +477,5 @@ footer{
     #logo{
         width: 75px;
     }
+
 }
