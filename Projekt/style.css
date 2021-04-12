@@ -261,7 +261,7 @@ footer{
     width: 100%;
     background-image: url(Bilder/footer.png);
     margin-bottom: -160px;
-    background-repeat: no-repeat;
+
 }
 
 .innerFooter{
@@ -338,7 +338,7 @@ footer{
     }
 }
 
-@media screen and (max-width:730px){
+@media screen and (max-width:735px){
 
     .menu.responsive{
        position: relative;
@@ -390,7 +390,7 @@ footer{
 
     }
 
-@media screen and (max-width:730px){
+@media screen and (max-width:735px){
     
     h1{
         font-size: 60px;
