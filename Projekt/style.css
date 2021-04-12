@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+width: 100%;
+height: 100%;
+background-color: rgb(0, 35, 68);
+}
+
+#wrapper{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 2200px;
+    background-color: rgb(80, 80, 80);
+    display: block;
+    
+}
+
+#shortWrapper{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 1600px;
+    background-color: rgb(80, 80, 80);
+    display: block;
+}
+
+#gameWrapper{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 1600px;
+    background-color: rgb(80, 80, 80);
+    display: block;
+}
+
+#logo{
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 20px 10px black;
+    animation: float 3s infinite;
+
+}
+
+
+/*@keyframes float{
+    0%{top: 15px;}
+    0%{left:15px;}
+
+    50%{left:25px;}
+    50%{top:25px;}
+
+    100%{left:15px;}
+    100%{top:15px;}
+}*/
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 160px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(67, 217, 255);
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 145, 182);
+    position: sticky;
+    top: 0;
+    border: black solid 2px;
+    margin-left: -2px;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#home{
+    margin-left: 20%;
+}
+
+.menu div{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(0, 145, 182);
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top:5px;
+
+}
+.menu #nav{
+    display: none;
+}
+
+
+
+.menu div:hover{
+    background-color: rgb(22, 170, 207);
+    border-radius: 60px;
+}
+
+.menu div:active{
+    background-color: white;
+}
+
+.menu .active{
+    background-color: rgb(22, 170, 207);
+    border-radius: 60px;
+}
+
+
+
+.infobox{
+    background-color: rgb(67, 217, 255);
+    width: 40%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10%;
+    float: left;
+    box-shadow: 8px 8px 20px 10px rgb(26, 26, 26);
+    margin-left: 7%;
+}
+
+
+
+.picture{
+
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture img{
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.games{
+    float: left;
+}
+
+.play{
+    float: right;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.infobox a:hover{
+    color: white;
+}
+
+.infobox .text{
+    margin-top: 10%px; 
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+#gameArea{
+    background-color: rgb(67, 217, 255);
+    width: 90%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#gameArea img{
+
+    width: 40%;
+    margin-left:31%;
+
+}
+
+.score{
+    font-size:30px;
+    font-weight: 700;
+}
+
+#points{
+    float: left;
+}
+
+#wins{
+    float: right;
+    margin-left: 20px;
+}
+
+#losses{
+    float: right;
+    margin-left: 20px;
+}
+
+#coin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headsButton{
+    background-color: white;
+    border: none;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#tailsButton{
+    background-color: white;
+    border: none;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#res{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+footer{
+    margin-bottom: 0;
+    width: 100%;
+    height: 340px;
+    background-color: rgb(67, 217, 255);
+    
+}
+
+#footer{
+    margin-top: -270px;
+    height: 400px;
+    width: 100%;
+    background-image: url(Bilder/footer.png);
+    margin-bottom: -160px;
+    background-repeat: no-repeat;
+}
+
+.innerFooter{
+    margin-left: 9%;
+    margin-right: auto;
+}
+
+.footerBox{
+    padding: 5px;
+    text-align: center;
+    float: left;
+    width: 30%;
+
+}
+.footerBox a{
+    color: black;
+}
+
+.footerBox a:visited{
+    color: black;
+}
+
+.footerBox a:hover{
+    color:white;
+}
+
+.footerBox img{    
+    padding-right:10px;
+}
+
+
+@media screen and (min-width:2000px){
+    #wrapper{
+        height: 2600px;
+    }
+    #shortWrapper{
+        height: 2600px;
+    }
+    #gameWrapper{
+        height: 2600px;
+    }
+    footer{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    h1{
+        font-size: 85px;
+    }
+    #logo{
+        width: 100px;
+    }
+    
+    .menu{
+        height: 40px;
+    }
+
+    .menu div{
+    font-size: 20px;
+    height: 30px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .play{
+        font-size: 20px;
+    }
+
+    footer{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .menu.responsive{
+       position: relative;
+       height: 200px;
+    }
+
+    .menu.responsive div{
+        float: none;
+        display: block;
+        text-align: left;
+        height: 40px;
+        margin-top: 0;
+        padding-left: 5px;
+    }
+
+    .menu.responsive #nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        margin-left:-2px;
+    }
+
+    #home{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .menu div:hover{
+        background-color: rgb(22, 170, 207);
+        border-radius: 0px;
+    }
+    
+    .menu div:active{
+        background-color: white;
+    }
+    
+    .menu .active{
+        background-color: rgb(22, 170, 207);
+        border-radius: 0px;
+    }
+    
+    .infobox{
+        float: none;
+        width: 85%;
+    }
+
+
+
+    }
+
+@media screen and (max-width:730px){
+    
+    h1{
+        font-size: 60px;
+        padding-bottom: 23px;
+        padding-top: 23px;
+    }
+
+    .footerBox{
+        font-size: 13px;
+    }
+
+    .score{
+        font-size: 25px;
+    }
+
+    #res{
+        font-size: 44px;
+    }
+
+    #gameWrapper{
+        width: 100%;
+        margin-top:0px;
+        height: 1200px;
+    }
+
+    #gameArea{
+        height: 60%;
+    }
+    
+    #wrapper{
+        width: 100%;
+        margin-top:0px;
+        height: 3100px;
+    }
+    #shortWrapper{
+        width: 100%;
+        margin-top:0px;
+        height: 2000px;
+    }
+
+
+
+    .menu div{
+        display: none;
+        width: 120px;
+        font-size: 25px;
+    }
+    .menu #nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        margin-left:-2px;
+        padding-left: 5px;
+        height:40px;
+        margin-top: -2px;
+        border:black solid 2px;
+    }
+
+    .menu #back{
+        font-size: 23px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        display: block;
+        margin-left:-2px;
+        padding-left: 5px;
+        height:40px;
+        margin-top: -2px;
+        border:black solid 2px;
+    }
+
+    footer{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:480px){
+    h1{
+        font-size: 40px;
+    }
+    #logo{
+        width: 75px;
+    }
+
+}
