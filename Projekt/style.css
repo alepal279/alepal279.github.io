@@ -174,8 +174,7 @@ h3{
     color: white;
 }
 
-.infobox .text{
-    margin-top: 10%px; 
+.infobox .text{ 
     width: 90%; 
     margin-left: auto;
     margin-right: auto;
